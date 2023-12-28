@@ -1,0 +1,58 @@
+#root,html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://wallpapercave.com/wp/wp3304243.jpg'); 
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  margin-top: 40vh;
+  background: rgba(255, 255, 255, 0.15); /* Glassmorphism effect */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+}
+
+.card p {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.2); /* Glassmorphism effect for button */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighten button on hover */
+  transition: background-color 0.2s ease-in-out;
+}
